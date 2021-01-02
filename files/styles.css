@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+#app {
+}
+
+header {
+  width: 75%;
+  margin: auto;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  font-size: 30px;
+}
+
+nav {
+  background-color: indigo;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style: none;
+  padding: 15px 30px 15px 30px; /*top right bottom left*/
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav li:hover {
+  cursor: pointer;
+  background-color: hotpink;
+}
+
+section ul {
+  margin: 0;
+}
+
+section li {
+  font-size: 18px;
+}
